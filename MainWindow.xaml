@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CH02.CommonWindowsTemplate"
         mc:Ignorable="d"
-        Title="CommonWindowsView" Height="450" Width="800">
+        Title="CommonWindowsView" Height="600" Width="800">
 
 
     <!--1. DockPanel-->
@@ -43,7 +43,7 @@
             3. right-click each image, go to Properties, and set Build Action to Resource or Content
         -->
         <ToolBar DockPanel.Dock="Top">
-            <Button>
+            <Button Click="LoadFile_Click">
                 <Image Source="Icons/add_icon.png" Width="20" Height="20"/>
             </Button>
             <Button>
@@ -100,6 +100,37 @@
                             VerticalAlignment="Top"
                                />-->
                 </TabItem>
+
+                <TabItem Header="Files">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <!-- File Operations -->
+                            <RowDefinition Height="*"/>
+                            <!-- File List -->
+                            <RowDefinition Height="3*"/>
+                            <!-- File Preview -->
+                        </Grid.RowDefinitions>
+
+                        <!-- Row 0: Buttons -->
+                        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+                            <Button Content="Load File" Width="100" Click="LoadFile_Click" Margin="0,0,0,0"/>
+                            <Button Content="Delete File" Width="100" Click="DeleteFile_Click" Margin="5,0,0,0"/>
+                            <Button Content="Save File" Width="100" Click="SaveFile_Click" Margin="5,0,0,0"/>
+                        </StackPanel>
+
+                        <!-- Row 1: File List -->
+                        <ListBox Name="FileList" Grid.Row="1" Height="Auto" Width="Auto" Margin="5" SelectionChanged="FileList_SelectionChanged"/>
+
+                        <!-- Row 2: File Preview -->
+                        <ScrollViewer Grid.Row="2" Margin="5">
+                            <TextBox Name="FilePreview" Width="Auto" Height="Auto" TextWrapping="Wrap" AcceptsReturn="True"/>
+                        </ScrollViewer>
+                    </Grid>
+                </TabItem>
+
+
+
             </TabControl>
         </Grid>
     </DockPanel>

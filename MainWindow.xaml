@@ -1,0 +1,107 @@
+﻿<Window x:Class="CH02.CommonWindowsTemplate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CH02.CommonWindowsTemplate"
+        mc:Ignorable="d"
+        Title="CommonWindowsView" Height="450" Width="800">
+
+
+    <!--1. DockPanel-->
+    <DockPanel>
+
+        <!--2. Menu Bar-->
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="New"/>
+                <MenuItem Header="Open"/>
+                <MenuItem Header="Print"/>
+                <MenuItem Header="CLose"/>
+                <MenuItem Header="Exit"/>
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Header="Undo"/>
+                <MenuItem Header="Redo"/>
+            </MenuItem>
+            <MenuItem Header="View"/>
+            <MenuItem Header="Git"/>
+            <MenuItem Header="Project"/>
+        </Menu>
+
+        <!--3. Toolbar-->
+        <!--<ToolBar DockPanel.Dock="Top">
+            <Button Content="Add"/>
+            <Button Content="Delete"/>
+            <Button Content="Save"/>
+        </ToolBar>-->
+
+        <!--4. Toolbar with icons-->
+        <!--to add images:
+            1. right click on project >> click on Add >> add a new folder
+            2. place your well-named images in that folder
+            3. right-click each image, go to Properties, and set Build Action to Resource or Content
+        -->
+        <ToolBar DockPanel.Dock="Top">
+            <Button>
+                <Image Source="Icons/add_icon.png" Width="20" Height="20"/>
+            </Button>
+            <Button>
+                <Image Source="Icons/delete_icon.png" Width="20" Height="20"/>
+            </Button>
+            <Button>
+                <Image Source="Icons/save_icon.png" Width="20" Height="20"/>
+            </Button>
+
+            <Button Content="Run"/>
+            <Button Content="Debug"/>
+
+        </ToolBar>
+
+
+        <Grid>
+            <!--5. Grid defining rows and columns-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <!--Navigation Pane-->
+                <ColumnDefinition Width="*"/>
+                <!--Main Content-->
+            </Grid.ColumnDefinitions>
+
+            <!--Navigation Pane-->
+            <TreeView Grid.Column="0">
+                <TreeViewItem Header="Home">
+                    <TreeViewItem Header="Reports"/>
+                    <TreeViewItem Header="Invoices"/>
+                </TreeViewItem>
+                <TreeViewItem Header="Documents">
+                    <TreeViewItem Header="Reports"/>
+                    <TreeViewItem Header="Invoices"/>
+                </TreeViewItem>
+                <TreeViewItem Header="Settings">
+                    <TreeViewItem Header="Reports"/>
+                    <TreeViewItem Header="Invoices"/>
+                </TreeViewItem>
+            </TreeView>
+
+            <!--Tabs for main content-->
+            <TabControl Grid.Column="1">
+                <TabItem Header="Overview">
+                    <!--<TextBlock Text="Welcome to Overwiew!" 
+                            FontSize="16" 
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Top"
+                               />-->
+                </TabItem>
+                <TabItem Header="Details">
+                    <!--<TextBlock Text="Welcome to Details!" 
+                            FontSize="16" 
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Top"
+                               />-->
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </DockPanel>
+
+</Window>

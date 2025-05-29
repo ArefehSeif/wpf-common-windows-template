@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\cloned\\wpf-common-windows-template\\CH02.CommonWindowsTemplate.csproj",
+      "projectUniqueName": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\CH02.CommonWindowsTemplate.csproj",
       "projectName": "CH02.CommonWindowsTemplate",
-      "projectPath": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\cloned\\wpf-common-windows-template\\CH02.CommonWindowsTemplate.csproj",
+      "projectPath": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\CH02.CommonWindowsTemplate.csproj",
       "packagesPath": "C:\\Users\\ArmanPC\\.nuget\\packages\\",
-      "outputPath": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\cloned\\wpf-common-windows-template\\obj\\",
+      "outputPath": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

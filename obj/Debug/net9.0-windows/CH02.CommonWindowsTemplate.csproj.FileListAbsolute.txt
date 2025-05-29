@@ -39,3 +39,10 @@ D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\cloned\wpf-common-wind
 D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\cloned\wpf-common-windows-template\obj\Debug\net9.0-windows\CH02.CommonWindowsTemplate.pdb
 D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\cloned\wpf-common-windows-template\obj\Debug\net9.0-windows\CH02.CommonWindowsTemplate.genruntimeconfig.cache
 D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\cloned\wpf-common-windows-template\obj\Debug\net9.0-windows\ref\CH02.CommonWindowsTemplate.dll
+D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\CH05.Cloning.DataIO.Incompelete\wpf-common-windows-template\obj\Debug\net9.0-windows\MainWindow.g.cs
+D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\CH05.Cloning.DataIO.Incompelete\wpf-common-windows-template\obj\Debug\net9.0-windows\App.g.cs
+D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\CH05.Cloning.DataIO.Incompelete\wpf-common-windows-template\obj\Debug\net9.0-windows\CH02.CommonWindowsTemplate_MarkupCompile.cache
+D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\CH05.Cloning.DataIO.Incompelete\wpf-common-windows-template\obj\Debug\net9.0-windows\CH02.CommonWindowsTemplate_MarkupCompile.lref
+D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\CH05.Cloning.DataIO.Incompelete\wpf-common-windows-template\obj\Debug\net9.0-windows\CH02.CommonWindowsTemplate.dll
+D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\CH05.Cloning.DataIO.Incompelete\wpf-common-windows-template\obj\Debug\net9.0-windows\refint\CH02.CommonWindowsTemplate.dll
+D:\MySpace\PhD\3_Presenter\term2_1403_11\c_sharp\projects\CH05.Cloning.DataIO.Incompelete\wpf-common-windows-template\obj\Debug\net9.0-windows\CH02.CommonWindowsTemplate.pdb

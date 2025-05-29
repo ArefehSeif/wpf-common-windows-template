@@ -43,7 +43,7 @@
             3. right-click each image, go to Properties, and set Build Action to Resource or Content
         -->
         <ToolBar DockPanel.Dock="Top">
-            <Button Click="LoadFile_Click">
+            <Button Click="onLoadFileClicked">
                 <Image Source="Icons/add_icon.png" Width="20" Height="20"/>
             </Button>
             <Button>
@@ -86,22 +86,8 @@
 
             <!--Tabs for main content-->
             <TabControl Grid.Column="1">
-                <TabItem Header="Overview">
-                    <!--<TextBlock Text="Welcome to Overwiew!" 
-                            FontSize="16" 
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Top"
-                               />-->
-                </TabItem>
-                <TabItem Header="Details">
-                    <!--<TextBlock Text="Welcome to Details!" 
-                            FontSize="16" 
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Top"
-                               />-->
-                </TabItem>
 
-                <TabItem Header="Files">
+                <TabItem Header="Text Editor">
                     <Grid Margin="10">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto"/>
@@ -114,13 +100,13 @@
 
                         <!-- Row 0: Buttons -->
                         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
-                            <Button Content="Load File" Width="100" Click="LoadFile_Click" Margin="0,0,0,0"/>
-                            <Button Content="Delete File" Width="100" Click="DeleteFile_Click" Margin="5,0,0,0"/>
-                            <Button Content="Save File" Width="100" Click="SaveFile_Click" Margin="5,0,0,0"/>
+                            <Button Content="Load File" Width="100" Click="onLoadFileClicked" Margin="0,0,0,0"/>
+                            <Button Content="Delete File" Width="100" Click="onDeleteFileClicked" Margin="5,0,0,0"/>
+                            <Button Content="Save File" Width="100" Click="onSaveFileClicked" Margin="5,0,0,0"/>
                         </StackPanel>
 
                         <!-- Row 1: File List -->
-                        <ListBox Name="FileList" Grid.Row="1" Height="Auto" Width="Auto" Margin="5" SelectionChanged="FileList_SelectionChanged"/>
+                        <ListBox Name="FileList" Grid.Row="1" Height="Auto" Width="Auto" Margin="5" SelectionChanged="onFileListSelectionChanged"/>
 
                         <!-- Row 2: File Preview -->
                         <ScrollViewer Grid.Row="2" Margin="5">
@@ -129,7 +115,13 @@
                     </Grid>
                 </TabItem>
 
-
+                <TabItem Header="Overview">
+                    <!--empty-->
+                </TabItem>
+                
+                <TabItem Header="Details">
+                    <!--empty-->
+                </TabItem>
 
             </TabControl>
         </Grid>

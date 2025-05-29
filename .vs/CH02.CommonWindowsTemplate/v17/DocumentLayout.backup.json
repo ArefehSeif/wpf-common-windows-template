@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5A2C24B-F6B2-4775-BF6B-70C793AE4079}|CH02.CommonWindowsTemplate.csproj|d:\\myspace\\phd\\3_presenter\\term2_1403_11\\c_sharp\\projects\\ch05.cloning.dataio.incompelete\\wpf-common-windows-template\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5A2C24B-F6B2-4775-BF6B-70C793AE4079}|CH02.CommonWindowsTemplate.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5A2C24B-F6B2-4775-BF6B-70C793AE4079}|CH02.CommonWindowsTemplate.csproj|d:\\myspace\\phd\\3_presenter\\term2_1403_11\\c_sharp\\projects\\ch05.cloning.dataio.incompelete\\wpf-common-windows-template\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A5A2C24B-F6B2-4775-BF6B-70C793AE4079}|CH02.CommonWindowsTemplate.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5A2C24B-F6B2-4775-BF6B-70C793AE4079}|CH02.CommonWindowsTemplate.csproj|d:\\myspace\\phd\\3_presenter\\term2_1403_11\\c_sharp\\projects\\ch05.cloning.dataio.incompelete\\wpf-common-windows-template\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5A2C24B-F6B2-4775-BF6B-70C793AE4079}|CH02.CommonWindowsTemplate.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,30 +45,6 @@
               "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T02:52:57.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T10:08:39.483Z"
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
@@ -79,6 +55,30 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T02:52:57.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\MySpace\\PhD\\3_Presenter\\term2_1403_11\\c_sharp\\projects\\CH05.Cloning.DataIO.Incompelete\\wpf-common-windows-template\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T10:08:39.483Z",
+              "EditorCaption": ""
             }
           ]
         }

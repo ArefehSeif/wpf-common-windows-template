@@ -13,9 +13,7 @@ using System.Windows.Shapes;
 
 namespace CH02.CommonWindowsTemplate
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -23,19 +21,16 @@ namespace CH02.CommonWindowsTemplate
             InitializeComponent();
         }
 
-        private void LoadFile_Click(object sender, RoutedEventArgs e)
+        //============================================================
+        private void onLoadFileClicked(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            //{
-            //    Title = "Select a File",
-            //    Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*"
-            //};
             openFileDialog.Title = "Select a File";
             openFileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
 
-
             if (openFileDialog.ShowDialog() == true)
             {
+                // load and show content of text file
                 string fileContent = File.ReadAllText(openFileDialog.FileName);
                 FilePreview.Text = fileContent;
 
@@ -44,7 +39,49 @@ namespace CH02.CommonWindowsTemplate
             }
         }
 
-        
+        private void onDeleteFileClicked(object sender, RoutedEventArgs e)
+        {
+            if (FileList.SelectedItem != null)
+            {
+                FileList.Items.Remove(FileList.SelectedItem);
+                FilePreview.Text = ""; // Clear preview when deleted
+            }
+            else
+            {
+                MessageBox.Show("Please select a file to delete.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void onSaveFileClicked(object sender, RoutedEventArgs e)
+        {
+            if (FileList.SelectedItem != null)
+            {
+                string filePath = FileList.SelectedItem.ToString();
+
+                try
+                {
+                    File.WriteAllText(filePath, FilePreview.Text);
+                    MessageBox.Show("File saved successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error saving file: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a file before saving.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void onFileListSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (FileList.SelectedItem != null)
+            {
+                string selectedFilePath = FileList.SelectedItem.ToString(); // Get full file path
+                FilePreview.Text = File.ReadAllText(selectedFilePath); // Load file content
+            }
+        }
 
 
     }
